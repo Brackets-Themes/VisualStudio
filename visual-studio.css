@@ -1,55 +1,49 @@
-.cm-s-visual-studio.CodeMirror
-{
+.cm-s-visual-studio.CodeMirror .CodeMirror-scroll {
     background-color: #fefefe;
     color:black;
 }
 
-.cm-s-visual-studio.CodeMirror .CodeMirror-gutters
-{
+.cm-s-visual-studio.CodeMirror .CodeMirror-selected {
+    background-color: rgba(0, 204, 255, 0.3) !important;
+}
+
+.cm-s-visual-studio.CodeMirror .CodeMirror-gutters {
     background-color: #fefefe;
 }
 
-.cm-s-visual-studio.CodeMirror .CodeMirror-linenumber
-{
+.cm-s-visual-studio.CodeMirror .CodeMirror-linenumber {
     color: #0E97A1;
     background-color: #fefefe;
 }
 
-.cm-s-visual-studio.CodeMirror .CodeMirror-matchingbracket
-{
+.cm-s-visual-studio.CodeMirror .CodeMirror-matchingbracket {
     color: black;
     background-color: #dedede;
 }
 
-.cm-s-visual-studio.CodeMirror .CodeMirror-linebackground
-{
+.cm-s-visual-studio.CodeMirror .CodeMirror-linebackground {
     outline: 2px solid #dddddd;
 }
 
 .cm-s-visual-studio .CodeMirror-activeline-background,
-.cm-s-visual-studio .CodeMirror-activeline .CodeMirror-gutter-elt
-{
+.cm-s-visual-studio .CodeMirror-activeline .CodeMirror-gutter-elt {
     background: transparent !important;
 }
 
-.cm-s-visual-studio .CodeMirror-activeline-background
-{
+.cm-s-visual-studio .CodeMirror-activeline-background {
     outline: 2px solid #dddddd;
 }
 
-.cm-s-visual-studio.CodeMirror .cm-matchhighlight
-{
+.cm-s-visual-studio.CodeMirror .cm-matchhighlight {
     background-color: yellow;
 }
 
-.cm-s-visual-studio.CodeMirror .CodeMirror-selectedtext
-{
+.cm-s-visual-studio.CodeMirror .CodeMirror-selectedtext {
     background-color: #ADD6FF;
 }
 
 .cm-s-visual-studio.CodeMirror .CodeMirror-selected,
-.cm-s-visual-studio.CodeMirror-focused .CodeMirror-selected
-{
+.cm-s-visual-studio.CodeMirror-focused .CodeMirror-selected {
     background: transparent;
 }
 
