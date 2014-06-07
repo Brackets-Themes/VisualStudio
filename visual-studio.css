@@ -3,10 +3,6 @@
     color:black;
 }
 
-.cm-s-visual-studio.CodeMirror .CodeMirror-selected {
-    background-color: rgba(0, 204, 255, 0.3) !important;
-}
-
 .cm-s-visual-studio.CodeMirror .CodeMirror-gutters {
     background-color: #fefefe;
 }
@@ -39,21 +35,12 @@
 }
 
 .cm-s-visual-studio.CodeMirror .CodeMirror-selectedtext {
-    background-color: #ADD6FF;
+    background-color: #ADD6FF !important;
 }
-
-.cm-s-visual-studio.CodeMirror .CodeMirror-selected,
-.cm-s-visual-studio.CodeMirror-focused .CodeMirror-selected {
-    background: transparent;
-}
-
 
 .cm-s-visual-studio.CodeMirror .cm-atom { color: blue; }
 .cm-s-visual-studio.CodeMirror .cm-qualifier { color: #800000; }
-
-/*CodeMirror does not add notation for css...  Which would be really nice. */
-/*.cm-s-visual-studio.CodeMirror .cm-property { color: red; }*/
-
+.cm-s-visual-studio.CodeMirror .cm-def { color: black; }
 .cm-s-visual-studio.CodeMirror .cm-keyword { color: blue; }
 .cm-s-visual-studio.CodeMirror .cm-comment { color: green; }
 .cm-s-visual-studio.CodeMirror .cm-string {color: #800000;}
@@ -64,3 +51,7 @@
 .cm-s-visual-studio.CodeMirror .cm-attribute { color: red; }
 .cm-s-visual-studio.CodeMirror .cm-property { color: black; }
 
+.doctype-less .cm-property,
+.doctype-css  .cm-property {
+    color: red !important; 
+}
