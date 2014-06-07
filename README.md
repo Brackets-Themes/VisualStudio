@@ -1,2 +1,2 @@
-Brackets-VisualStudioTheme
+Visual Studio
 ==========================
