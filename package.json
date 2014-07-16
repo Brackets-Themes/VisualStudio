@@ -10,7 +10,7 @@
         "url": "git://github.com/Brackets-Themes/VisualStudio.git"
     },
     "engines": {
-        "brackets": ">=0.41.0"
+        "brackets": ">=0.42.0"
     },
     "theme": "visual-studio.css",
     "screenshot": "screenshot.png"
